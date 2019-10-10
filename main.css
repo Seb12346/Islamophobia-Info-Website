@@ -1,6 +1,5 @@
 #title {
   color:white;
-  position:fixed;
   margin-left:auto;
   margin-right:auto;
   margin-top:50px;
@@ -9,7 +8,6 @@
 }
 
 #banner {
-  position:absolute;
   margin-left:auto;
   margin-right:auto;
   z-index:1
