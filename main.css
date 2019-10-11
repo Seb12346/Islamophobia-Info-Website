@@ -1,5 +1,10 @@
 #title {
   color:white;
+  z-index:2;
+  width:200px;
+  text-align:center;
+  margin-left:auto;
+  margin-left:auto;
 }
 
 #banner {
