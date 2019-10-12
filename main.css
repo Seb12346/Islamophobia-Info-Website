@@ -43,6 +43,10 @@ body {
   background-color:rgb(80, 104, 143);
 }
 
+p, li {
+	line-height:1.5em
+}
+
 #img3 {
 	position:relative;
 	left:60%;
@@ -65,13 +69,62 @@ body {
 	background-color:rgba(140, 140, 140, .5)
 }
 
+.block2:hover {
+    background-color:rgba(140, 140, 140, .5)
+}
+
 .block {
-	width:160px;
-	padding-left:5px;
-	position:relative;
-	left:10%;
+	background-color:rgba(40, 40, 40, .5);
+	width:165px;
 	padding-top:1.5px;
 	padding-bottom:1.5px;
+	text-align:center;
+	position:relative;
+    left:10%;
+}
+
+.block2 {
+    background-color:rgba(40, 40, 40, .5);
+    width:165px;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    text-align:center;
+    position:relative;
+    left:30%;
+    margin-top:-59px;
+}
+
+.block3 {
+    background-color:rgba(40, 40, 40, .5);
+    width:165px;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    text-align:center;
+    position:relative;
+    left:52.5%;
+    margin-top:-58px;
+}
+
+
+.blockIn {
+    width:165px;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    text-align:center;
+    color:white;
+}
+
+.blockIn:hover {
+	background-color:rgba(140, 140, 140, .5)
+}
+
+#inside {
+	width:165px;
+    position:absolute;
+    left:10%;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    background-color:black;
 }
 
 a.unstyle {
