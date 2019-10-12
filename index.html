@@ -3,99 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>Islamophobia Facts</title>
-    <style>
-        .important{
-            background-color:rgb(144, 0, 201);
-            color:white;
-        }
-        #title {
-  border-radius:15px;
-  position:absolute;
-  background-color:rgba(0, 0, 0, 0.5);
-  color:white;
-  z-index:2;
-  width:300px;
-  font-size:130%;
-  text-align:center;
-  top: 190px;
-  left:50%;
-  margin-left:-150px;
-}
-
-#bannerimg {
-	margin-top:60px;
-    width:1110px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-#top {
-	border-radius:15px;
-	margin-top:5px;
-	position:fixed;
-	background-color:black;
-	width:1110px;
-	z-index:5;
-}
-
-#site {
-	background-color: rgb(144, 175, 255); 
-	width:1110px;
-	padding-left:10px;
-	padding-right:10px;
-	padding-bottom:20px;
-	margin-left:auto;
-	margin-right:auto;
-}
-  
-body {
-  font-family: sans-serif; 
-  background-color:rgb(80, 104, 143);
-}
-
-#img3 {
-	position:relative;
-	left:60%;
-	margin-left:-150px;
-}
-
-#img2 {
-	position:relative;
-	left:35%;
-	margin-left:-60px;
-}
-
-#img1 {
-	position:relative;
-	left:15%;
-	margin-left:-150px;
-}
-
-.block:hover {
-	background-color:rgba(140, 140, 140, .5)
-}
-
-.block {
-	width:160px;
-	padding-left:5px;
-	position:relative;
-	left:10%;
-	padding-top:1.5px;
-	padding-bottom:1.5px;
-}
-
-a.unstyle {
-	text-decoration:none;
-	color:white;
-	
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
   <div id="site">
         <!-- Top Area -->
         <div id="top">
-            <a class="unstyle" href="#whatis"><div class="block"><p>What Is Islamophobia</p></div></a>
+            <div id="block1">
+                 <a class="unstyle" href="#title">
+                    <div class="block" id="1">
+                        <p>About Islamophobia</p>
+                    </div>
+                 </a>
+                 <div id="inside">
+                    <a class="unstyle" href="#title">
+                        <div class="blockIn">
+                            <p>What</p>
+                        </div>
+                    </a>
+                    <a class="unstyle" href="#whatis">
+                        <div class="blockIn">
+                            <p>When</p>
+                        </div>
+                    </a>
+                    <a class="unstyle" href="#when">
+                        <div class="blockIn">
+                            <p>How 9/11 is Related</p>
+                        </div>
+                    </a>
+                    <a class="unstyle" href="#how9-11">
+                        <div class="blockIn">
+                            <p>The Signs</p>
+                        </div>
+                    </a>
+                </div>
+            
+            </div>
+            <div>
+                 <a href="#signs" class="unstyle">
+                    <div class="block2">
+                        <p>Fighting Islamophobia</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                 <a href="#stats" class="unstyle">
+                    <div class="block3">
+                        <p>Statistics</p>
+                    </div>
+                </a>
+            </div>
         </div>  
   
         <!--Title Area-->
@@ -103,17 +60,36 @@ a.unstyle {
             <div id="title"><h1>Islamophobia</h1></div>
             <img id="bannerimg" src="https://raw.githubusercontent.com/Seb12346/Seb12346.github.io/master/resources/banner.jpg" alt="Anti-Islamophobia Signs">
         </div>
-      
-        <h3 id="whatis">What is Islamophobia?</h3>
-        <p>Often times today we fall to the common misconception that in our age hate crimes aren't as much of a problem as they were in the past
-        on the contrary, hate crimes have gotten worse and become more frequent as the years go by.<br>
-        According to the latest statistics provided by the FBI in 2017 <span class="important"><em>"In 2017, 16,149 law enforcement agencies participated in the Hate Crime Statistics Program.
-        Of these agencies, 2,040 reported 7,175 hate crime incidents involving 8,437 offenses"</em></span></p>
-        <p><strong>What exactly is the definition of Islamophobia?</strong><br>Islamophobia is a fear towards Muslims, a result of the attack on 9/11 since 
-        9/11 was lead by a terrorist group run by Muslims. After that attack fear spread across America and people feared that any Muslim could be the next
-        big terrorist or cause the next big catastrophe</p>
-        <p><strong>What are the characteristics of Islamophobia</strong><br>Islamophobics typically compare Muslims to terrorist, Islamophobics live under the
-        impression that all Muslims are or could be a terrorist. The result of this idea is often racism and discrimination directed towards Muslims.</p>
+        
+        <div id="whatis">
+        <h3>What is Islamophobia?</h3>
+        <p>To put it simply, Islamophobia is the fear and hatred of Muslims. In the modern-day, it is the fear that is known to associate Muslims with 
+        terrorists due to the attack on 9/11. The worst Islamophobics discriminate against or keep away from Muslims because of the assumption 
+        that all Muslims are or can be terrorists. Islamophobia is, like other hate crimes, everywhere, in the media, on the streets, everywhere.
+        Like other acts of hate, there may be violence, discrimination against the group, prejudice and stigmas.</p>
+        </div>
+        
+        <div id="when">
+        <h3>When did the anti-Muslim attacks start?</h3>
+        <p>It’s important to take note that anti-Muslim hate crimes have been around since before 9/11 (see statistics), in fact it has probably been
+         around since the religion was founded. However, the anti-Muslim hate crime count spiked in 2001 after the attack on 9/11, and 
+         though the year after the numbers dropped, over the past couple of years the number of anti-Muslim hate crimes in the year has begun to rise.</p>
+        </div>
+        
+        <div id="how9-11">
+        <h3>Where does 9/11 fit in all this?</h3>
+        <p>The attacks on 9/11 were lead by a terrorist group based in Afghanistan called “al-Qaeda”. The group is run by, you guessed it, 
+        Muslims. After the attack terror spread across the United States and the fact that such an attack was lead by a group of Muslims lead
+         people to conclude that all Muslims must be associated with terrorists in some way, whether they are or are related to or have 
+        contact with terrorists.</p>
+        </div>
+        
+        <div id="signs">
+        <h3>What are the signs? How can I tell if an Islamophobic attack is happening?</h3>
+        <p>Islamophobia has more or less the same characteristics as your average hate-driven attack except it is directed to Muslims 
+        and people who share traits that are typically associated with the stereotypical Muslim. Often verbal attacks involve calling 
+        Muslims out for being terrorists though they probably aren’t. </p>
+        </div>
         
         <!-- Fighting Islamophobia -->
         <h3>Fighting Islamophobia</h3>
@@ -123,29 +99,45 @@ a.unstyle {
             <img id="img1" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/CAIR_logo.svg/1200px-CAIR_logo.svg.png" width="300" alt="CAIR logo">
             <img id="img2" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/NAACP_seal.svg/1200px-NAACP_seal.svg.png" width="120" alt="NAACP logo">
             <img id="img3" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/ADL-logo-digital-300px.png" width="300" alt="ADL logo"></li>
-            <li>A lot of hate comes in from the media so combat the media by spreading positivity and combatting the hate online</li>
-            <li>"If you see something say something" definitely applies to acts of hate, if you see someone getting attacked, be the intervention or drive the attacker away</li>
-            <li>Become informed and inform others about the problem, it's easier to stop something when you understand what it is and its true nature</li>
+            <li>Put positivity out in the media, unfortunately, today the media is a very easy way to spread ideas and allow them to grow or spread to the minds of others. 
+            We can use this to our advantage by putting out good content which embraces Muslims and portrays them as the non-terrorists that they probably are</li>
+            <li>If you see something, say something <em>and</em> do something. If you see someone verbally abusing a Muslim or attacking them or calling them out as a terrorist, report 
+            it and if you think you can, intervene and defuse the situation. If someone has vandalized a Muslim’s property and called them a terrorist, report it
+             and maybe help to clean up the mess.</li>
         </ol>
         <p>These are among many ways to put up a fight against Islamophobia, we can all contribute different amounts so let's all pitch in what we can
         so that we can help</p>
         
         <!-- Statistics -->
-        <h3>Statistics</h3>
-        <iframe style="float:left;" width="600" height="371" seamless frameborder="0" scrolling="no" 
+        <h3 id="stats">Statistics</h3>
+        <iframe style="float:left;" width="600" height="381" seamless frameborder="0" scrolling="no" 
         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxQuVYuDyH4vnaBxl6BtEU29HgBTId5i7fESEYJpOGfVYVRu6Lp0EjX2NOkQzCk4SimhhZge4lFmbg/pubchart?oid=145696795&amp;format=interactive"></iframe>
         <div style="text-align:right;"><p style="line-height:2em;">As you can see in the data, before 2001 anti-Muslim hate crimes haven't been as prevalent. At 2001 anti-Muslim hate crimes spiked probably due to the 9/11 attack, thankfully
         after that the numbers settled a bit, but they never dropped to pre-9/11 numbers. From 2015 the amount of crimes begins to increase again maybe because of the age of technology and 
         media. The media has also helped spread anti-Muslim themes across the nation.<br><em>Source of data is released data from FBI</em></p></div>
-        <iframe style="float:left;" width="600" height="371" seamless frameborder="0" scrolling="no" 
+        <iframe style="float:left;margin-top:10px;" width="600" height="381" seamless frameborder="0" scrolling="no" 
         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxQuVYuDyH4vnaBxl6BtEU29HgBTId5i7fESEYJpOGfVYVRu6Lp0EjX2NOkQzCk4SimhhZge4lFmbg/pubchart?oid=1922584885&amp;format=interactive"></iframe>
          <div style="text-align:right;"><p style="line-height:2em;"><br><br><br><br>In this pie chart to the left the percentage of anti-Muslim crimes out of the total is compared to those of
-         other religious based hate crimes. The data shows that anti-Muslim hate crimes take up a large amount of that, the largest is anti-Semitic but the percentage of
-         anti-Muslim is still pretty large<br><em>Source of data is released data from FBI</em></p></div>
+         other religious based hate crimes. The data shows that anti-Muslim hate crimes take up a large amount of that, the largest is anti-Semitic but the percentage of anti-Muslim attacks
+          is still pretty large<br><em>Source of data is released data from FBI</em></p></div>
          
          <!-- Citations -->
-         <h3>Sources</h3>
+         <h3><br><br><br><br><br><br><br><br>Sources</h3>
          <p></p>
+         <p>“Islamophobia 101.” Islamophobia, 13 May 2019, <br><a href="https://www.islamophobia.org/research/islamophobia-101.html">      www.islamophobia.org/research/islamophobia-101.html</a>.</p>
+         <p>Sur, Kuang Kueng Kuek. “Data: Hate Crimes against Muslims Increased after 9/11.” Public Radio International, 12 Sept. 2016, <br><a href="https://www.pri.org/stories/2016-09-12/data-hate-crimes-against-muslims-increased-after-911">www.pri.org/stories/2016-09-12/data-hate-crimes-against-muslims-increased-after-911</a>."</p>
+         
+                 <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $("#inside").hide()
+            $("#1").on("mouseenter", function(){
+                $("#inside").show()
+            })
+            $("#block1").on("mouseleave", function(){
+                $("#inside").hide()
+            })
+        </script>
     </div>
   </body>
 </html>
