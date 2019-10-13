@@ -101,7 +101,18 @@ p, li {
     padding-bottom:1.5px;
     text-align:center;
     position:relative;
-    left:52.5%;
+    left:51%;
+    margin-top:-58px;
+}
+
+.block4 {
+    background-color:rgba(40, 40, 40, .5);
+    width:165px;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    text-align:center;
+    position:relative;
+    left:70%;
     margin-top:-58px;
 }
 
